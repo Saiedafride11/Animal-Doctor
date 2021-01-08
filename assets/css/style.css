@@ -1,0 +1,879 @@
+/*==============================================
+		Start global area css
+===============================================*/
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container{
+	max-width: 1210px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+@font-face{
+	src:url(../fonts/poppins/Poppins-Medium.otf);
+	font-family: poppins-medium;
+}
+
+@font-face{
+	src:url(../fonts/poppins/Poppins-Regular.otf);
+	font-family: poppins-regular;
+}
+
+@font-face{
+	src:url(../fonts/poppins/Poppins-SemiBold.otf);
+	font-family: poppins-semiBold;
+}
+
+@font-face{
+	src:url(../fonts/poppins/Poppins-Bold.otf);
+	font-family: poppins-Bold;
+}
+.section-padding{
+	padding: 90px 0;
+}
+
+p{
+	font-size: 30px;
+	font-family: poppins-regular;
+}
+
+.section-title{
+	text-align: center;
+	max-width: 877px;
+	margin: 0 auto;
+}
+
+.section-title h2{
+	font-size: 75px;
+	font-family: poppins-Bold;
+	text-transform: capitalize;
+	color: #fff;
+}
+
+.section-title p{
+	font-family: poppins-regular;
+	font-size: 33px;
+	line-height: 44px;
+	color: #fff;
+}
+
+.section p{
+	padding: 90px 0;
+	font-size: 33px;
+}
+/*==============================================
+		End global area css
+===============================================*/
+
+
+/*==============================================
+		Start Header area css
+===============================================*/
+
+.header-section{
+	width: 100%;
+	background-color:#daac00;
+	padding: 27px 0;
+}
+
+.header-section .header{
+	width: 100%;
+}
+
+.header-section .header .logo{
+	float: left;
+
+}
+
+.header-section .header .main-menu{
+	float: left;
+}
+.header-section .header .main-menu ul{}
+.header-section .header .main-menu ul li{
+	float: left;
+}
+.header-section .header .main-menu ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	display: block;
+	color: #fff;
+	padding: 10px 20px;
+	font-family: poppins-medium;
+	font-size: 26px;
+
+
+}
+
+.header-section .header .main-menu ul li:first-child a{
+	margin: 0 0 0 62px;
+}
+
+.header-section .header .header-search{
+	float: right;
+}
+
+.header-section .header .header-search form{
+	transform: translate(0, 8px);
+	box-shadow: 0 5px 6px rgba(0, 0, 0, .1);
+}
+.header-section .header .header-search form input{
+	padding: 13px 14px;
+	border: none;
+	margin: -4px;
+}
+
+.header-section .header .header-search form input[type="search"]{
+	background-color: #fcc302;
+}
+
+.header-section .header .header-search form input::placeholder{
+	color: #fff;
+	opacity: 1;
+	font-family: poppins-regular;
+	font-size: 20px;
+}
+
+.header-section .header .header-search form .icon{
+	background-color: #00bec9 ;
+	padding: 11px 22px 15px;
+	
+}
+ 
+
+/*==============================================
+		End Header area css
+===============================================*/
+
+
+/*==============================================
+		Start top banner css
+===============================================*/
+.banner-section{
+	width: 100%;
+	background-color: #fcc302;
+}
+
+.banner{
+	width: 100%;
+}
+
+.banner .banner-left{
+	width: 65%;
+	margin-right: 5%;
+	float: left;
+}
+
+.banner .banner-left h1{
+	font-family: poppins-semiBold;
+	font-size: 64px;
+	line-height: 81px;
+	color: #fff;
+	padding: 73px 0 0 0;
+}
+
+.banner .banner-left p{
+	font-family: poppins-regular;
+	font-size: 29px;
+	line-height: 34px;
+	color: #fff;
+	margin: 27px 0 46px 0;
+}
+
+.banner .banner-left .banner-btn{
+	display: inline;
+	padding: 17px 32px;
+	border: 3px solid #fff;
+	font-size: 20px;
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration: none;
+	border-radius: 7px;
+	margin-right: 28px;
+	font-family: poppins-semiBold;
+}
+
+.banner .banner-left .banner-btn:hover{
+	background-color: #00bec9;
+	border: 3px solid transparent;
+}
+.banner .banner-right{
+	width: 30%;
+	float: right;
+}
+
+.banner .banner-right img{
+	width: 100%;
+}
+
+/*==============================================
+		End top banner css
+===============================================*/
+
+/*==============================================
+		Start veterinarian css
+===============================================*/
+
+
+.veterinarian-section{
+	width: 100%;
+}
+
+.veterinarian-section .veterinarian{
+	width: 100%;
+}
+
+.veterinarian-section .veterinarian .veterinarian-left{
+	width: 50%;
+	float: left;
+	margin-right: 5%;
+}
+
+.veterinarian-section .veterinarian .veterinarian-left h2{
+	font-family: poppins-semiBold;
+	color: #313243;
+	font-size: 50px;
+	line-height: 67px;
+	padding: 38px 0;
+}
+
+.veterinarian-section .veterinarian .veterinarian-left p{
+	color: #313243;
+	line-height: 35px;
+	margin: 0 0 41px 0;
+}
+
+.veterinarian-section .veterinarian .veterinarian-left .banner-3{
+	display: inline-block;
+	text-decoration: none;
+	background: #fcc302;
+	color: #fff;
+	font-size: 20px;
+	font-family: poppins-semiBold;
+	padding: 17px 32px;
+	border-radius: 5px;
+
+}
+.veterinarian-section .veterinarian .veterinarian-left .banner-3:hover{
+	background: #00bec9;
+}
+.veterinarian-section .veterinarian .veterinarian-right{
+	width: 45%;
+	float: right;
+	position: relative;
+}
+
+.veterinarian-right .veterinarian-img{
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+
+.veterinarian-right .veterinarian-img::after{
+	content: "";
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	background-color: #fcc302;
+	left: -40px;
+	bottom: -29px;
+	z-index: -1;
+}
+.veterinarian-right .veterinarian-img::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(252, 195, 2, 0.65);
+}
+
+.veterinarian-right .veterinarian-img img{
+	width: 100%;
+}
+
+.veterinarian-icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9;
+}
+/*==============================================
+		End veterinarian css
+===============================================*/
+
+
+/*==============================================
+		Start veterinarian-care css
+===============================================*/
+
+.veterinarian-care-section{
+	background-color: #fcc302;
+}
+
+.veterinarian-care .title-color{
+	color: #fff;
+}
+
+.care-content{
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+	text-align: center;
+	padding: 85px 0 0 0;
+}
+
+.care-content:last-child{
+	margin-right: 0;
+}
+
+
+.care-content .care-text h3{
+	font-size: 37px;
+	color: #fff;
+	font-family: poppins-semiBold;
+	padding: 37px 0 0 0;
+}
+.care-content .care-text p{
+	font-size: 25px;
+	line-height: 30px;
+	color: #fff;
+	padding: 8px 0 0 0;
+}
+/*==============================================
+		End veterinarian-care css
+===============================================*/
+
+
+/*==============================================
+		start lover animals css
+===============================================*/
+
+.animals-lover-section{
+	width: 100%;
+}
+.animals-lover{
+	width: 100%;
+}
+.animals-lover .animals-lover-left{
+	width: 45%;
+	float: left;
+	position: relative;
+	margin-right: 5%;
+}
+
+.animals-lover-left .animals-lover-img{
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+.animals-lover-left .animals-lover-img img{
+	width: 100%;
+}
+
+.animals-lover-left .animals-lover-img::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(252, 195, 2, 0.65);
+}
+
+.animals-lover-left .animals-lover-img::after{
+	content: "";
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	background-color: #fcc302;
+	right: -40px;
+	bottom: -29px;
+	z-index: -1;
+}
+
+.animals-lover-left .animals-lover-icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9;
+}
+.animals-lover .animals-lover-right{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.animals-lover .animals-lover-right h2{
+	font-family: poppins-semiBold;
+	color: #313243;
+	font-size: 50px;
+	line-height: 67px;
+	padding: 38px 0;
+}
+.animals-lover .animals-lover-right p{
+	color: #313243;
+	line-height: 35px;
+	margin: 0 0 41px 0;
+}
+.animals-lover .animals-lover-right .banner-3{
+	display: inline-block;
+	text-decoration: none;
+	background: #fcc302;
+	color: #fff;
+	font-size: 20px;
+	font-family: poppins-semiBold;
+	padding: 17px 32px;
+	border-radius: 5px;
+}
+
+.animals-lover .animals-lover-right .banner-3:hover{
+	background: #00bec9;
+}
+
+/*==============================================
+		End lover animals css
+===============================================*/
+
+
+/*==============================================
+		Start buy now css
+===============================================*/
+
+.buy-now-section{
+	width: 100%;
+	background-color: #fcc302;
+}
+.buy-now{
+	width: 100%;
+}
+.buy-now .single-buy-now{
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	margin-top: 90px;
+}
+
+.buy-now .single-buy-now:last-child{
+	margin-right: 0%;
+}
+
+.buy-now .single-buy-now img{
+	width: 100%;
+}
+.buy-now-text{
+	text-align: center;
+	margin-top: 30px;
+}
+.buy-now .single-buy-now h3{
+	font-size: 41px;
+	font-family: poppins-semiBold;
+	color: #fff;
+}
+.buy-now .single-buy-now h3 span{
+	position: relative;
+	margin-right: 30px;
+}
+.buy-now .single-buy-now h3 span:before{
+	content: "";
+	position: absolute;
+	width: 112px;
+	height: 4px;
+	background-color: #fff;
+	top: 26px;
+	left: -19px;
+}
+.buy-now .single-buy-now a{
+	background-color: #00bec9;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: poppins-semiBold;
+	color: #fff;
+	font-size: 25px;
+	padding: 12px 50px;
+	border-radius: 72px;
+	margin-top: 28px;
+}
+
+.buy-now .single-buy-now a:hover{
+	background-color: #fff;
+	color: #00bec9;
+}
+/*==============================================
+		End buy now css
+===============================================*/
+
+
+/*==============================================
+		start vetcare-section css
+===============================================*/
+
+.vetcare-section{
+	width: 100%;
+	back
+}
+
+.vetcare{
+	width: 100%;
+}
+.vetcare .title-color{
+	color: #313243;
+}
+
+
+.vetcare .single-vetcare{
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+	margin-top: 90px;
+}
+
+.vetcare .single-vetcare:last-child{
+	margin-right: 0;
+}
+
+.vetcare .single-vetcare .vetcare-img img{
+	width: 100%;
+}
+
+.vetcare .single-vetcare .vetcare-text{
+	text-align: center;
+}
+.vetcare .single-vetcare .vetcare-text h3{
+	font-family: poppins-Bold;
+	font-size: 29px;
+	color: #313243;
+	margin-top: 30px;
+}
+.vetcare .single-vetcare .vetcare-text p{
+	font-family: poppins-regular;
+	font-size: 25px;
+	color: #313243;
+	
+}
+.vetcare .single-vetcare .vetcare-text i{
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	background-color: #daac00;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.vetcare .single-vetcare .vetcare-text i:hover{
+	background-color: #00bec9;
+	
+}
+/*==============================================
+		End vetcare-section css
+===============================================*/
+
+/*==============================================
+		start client feadback css
+===============================================*/
+
+.client-feadback-section{
+	background-image: url(../images/feadback.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.client-feadback-section::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(#f0c01e, #efc01e, #efbf1d, #efbf1d, #eebe1e, #eebe1e, #d9aa0a, #d9aa0a, #dbac0d, #ecbc19, #d7a805);
+	opacity: .87;
+	top: 0;
+	left: 0;
+}
+.client-feadback{
+	width: 100%;
+	position: relative;
+	padding: 90px 0;
+}
+.client-feadback .single-feadback{
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+	text-align: center;
+
+
+}
+
+.client-feadback .single-feadback:last-child{
+	margin-right: 0;
+}
+.client-feadback .single-feadback img{}
+
+.client-feadback .single-feadback h3{
+	font-family: poppins-Bold;
+	font-size: 29px;
+	color: #fff;
+	margin-top: 30px;
+	margin-bottom: 4px;
+}
+.client-feadback .single-feadback p{
+	font-family: poppins-regular;
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+/*==============================================
+		End client feadback css
+===============================================*/
+
+/*==============================================
+		Start blog-post css
+===============================================*/
+.blog-post-section{
+	width: 100%;
+
+}
+
+.blog-post-section .blog-post{
+	width: 100%;
+}
+.blog-post .title-color{
+	color: #313243;
+}
+
+.single-blog-post{
+	width: 32%;
+	margin-right: 2%;
+	margin-top: 90px;
+	float: left;
+}
+
+.single-blog-post:last-child{
+	margin-right: 0%;
+}
+
+.single-blog-post:hover{
+	box-shadow: 0 5px 14px rgba(0, 0, 0, .25);
+}
+.single-blog-post:hover .single-blog-text{
+	border-left: 2px solid transparent !important;
+	border-right: 2px solid transparent !important;
+	border-bottom: 2px solid transparent !important;
+}
+
+.single-blog-post .single-blog-img{}
+.single-blog-post .single-blog-img img{
+	width: 100%;
+}
+
+.single-blog-post .single-blog-text{
+	width: 100%;
+	border-left: 2px solid #d6d6d6 !important;
+	border-right: 2px solid #d6d6d6 !important;
+	border-bottom: 2px solid #d6d6d6 !important;
+	padding: 0 30px 25px 30px;
+	border-top: none;
+}
+.single-blog-post .single-blog-text h3{
+	font-family: poppins-Bold;
+	font-size: 29px;
+	color: #313243;
+	padding-top: 30px;
+	margin-bottom: 4px;
+	line-height: 36px;
+}
+.single-blog-post .single-blog-text h4{
+	font-family: poppins-regular;
+	font-size: 16px;
+	color: #00bec9;
+	margin: 10px 0 22px 0;
+}
+.single-blog-post .single-blog-text p{
+	font-family: poppins-regular;
+	font-size: 17px;
+	color: #313243;
+	line-height: 21px;
+}
+.single-blog-post .single-blog-text a{
+	font-family: poppins-medium;
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+	color: #00bec9;
+	margin-top: 22px;
+}
+
+.single-blog-post .single-blog-text a:hover{
+	color: #daac00;
+}
+/*==============================================
+		End blog-post css
+===============================================*/
+
+
+/*==========================================================
+		Start footer css
+===========================================================*/
+.footer-section{
+	width: 100%;
+	background-color: #343434;
+}
+
+.footer{
+	width: 100%;
+}
+
+/* footer about */
+.footer .footer-about{
+	width: 25%;
+	margin-right: 5%;
+	float: left;
+}
+.footer-title h2, .footer-services h2, .footer-about h2{
+	font-family: poppins-semiBold;
+	color: #fff;
+	font-size: 37px;
+	margin-bottom: 17px;
+}
+.footer-about ul{}
+.footer-about ul li{}
+.footer-about ul li a{
+	font-family: poppins-regular;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+}
+.footer-about ul li a:hover{
+	color: #daac00;
+}
+/* footer about */
+
+/* footer services */
+.footer .footer-services{
+	width: 25%;
+	margin-right: 5%;
+	float: left;
+}
+.footer-services ul li a{
+	font-family: poppins-regular;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 24px;
+}
+.footer-services ul li a:hover{
+	color: #daac00;
+}
+/* footer services */
+
+/* footer title */
+.footer .footer-title{
+	width: 40%;
+	float: right;
+	
+}
+
+.footer-title h2{
+	font-family: poppins-semiBold;
+	color: #fff;
+	font-size: 37px;
+	margin-bottom: 17px;
+	text-transform: capitalize;
+	text-align: right;
+}
+
+.footer-title p{
+	font-family: poppins-regular;
+	font-size: 24px;
+	color: #fff;
+	margin-top: -24px;
+	text-align: right;
+}
+.footer-title form{
+	text-align: right;
+}
+.footer-title form input{
+	width: 368px;
+	padding: 33px 22px 22px 22px;
+	background: #daac00;
+	border: none;
+	margin-top: 36px;
+	margin-right: -6px;
+}
+.footer-search-icon{
+	background: #00bec9;
+	padding: 25px 36px 22px 36px;
+	color: #fff;
+	font-size: 23px;
+}
+
+.footer-search-icon:hover{
+	color: #343434;
+}
+.social-icon{
+	float: right;
+	margin-top: 35px;
+}
+.social-icon i{
+	height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #343434;
+    font-size: 20px;
+	margin-right: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+.social-icon i:hover{
+	background-color: #00bec9;
+	color: #fff;
+}
+.social-icon i:last-child{
+	margin-right: 0 !important;
+}
+/* footer title */
+/*=========================================================
+		End footer css
+============================================================*/
+
+.isStuck{
+    left: 0px;
+    width: 100%;
+    background: #daac00;
+}
+.navbar-wrapper{
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+}
